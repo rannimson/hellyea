@@ -1,31 +1,45 @@
-body {
+html, body {
   margin: 0;
-  background-color: #000;
-  color: white;
-  font-family: Arial, sans-serif;
-  height: 100vh;
+  height: 100%;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
-  text-align: center;
-}
-
-.button {
-  display: inline-block;
+.ricroll {
   padding: 15px 30px;
-  background-color: #1a1a1a;
-  color: white;
-  text-decoration: none;
-  border: 2px solid #fff;
-  border-radius: 8px;
-  transition: 0.3s;
   font-size: 18px;
+  color: white;
+  background-color: #444;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.button:hover {
-  background-color: white;
-  color: black;
+.ricroll:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.circle-button {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.circle-button:hover {
+  background-color: #333;
+}
+
+.circle-button img {
+  width: 30px;
+  height: 30px;
 }
