@@ -20,7 +20,7 @@ body {
   color: white;
   text-decoration: none;
   border: 2px solid #fff;
-  border-radius: 8px;
+  border-radius: 30px;
   transition: 0.3s;
   font-size: 18px;
 }
@@ -29,3 +29,4 @@ body {
   background-color: white;
   color: black;
 }
+
