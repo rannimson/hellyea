@@ -10,14 +10,18 @@ body {
 }
 
 .container {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
+  flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 
 .button {
   padding: 15px 30px;
-  background-color: #000;
+  background-color: #1a1a1a;
   color: white;
   text-decoration: none;
   border: 2px solid #fff;
@@ -33,7 +37,7 @@ body {
 
 .text {
   padding: 15px 30px;
-  background-color: #000;
+  background-color: #1a1a1a;
   color: white;
   text-decoration: none;
   border: 2px solid #fff;
@@ -46,5 +50,3 @@ body {
   background-color: white;
   color: black;
 }
-
-
