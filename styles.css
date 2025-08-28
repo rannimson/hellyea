@@ -15,7 +15,6 @@ body {
   align-items: center;
 }
 
-/* Кнопка на YouTube */
 .button {
   padding: 15px 30px;
   background-color: #1a1a1a;
@@ -32,7 +31,6 @@ body {
   color: black;
 }
 
-/* Кнопка Telegram */
 .circle-button {
   width: 60px;
   height: 60px;
